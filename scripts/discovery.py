@@ -7,9 +7,7 @@ Optimised: only hits the API for sheets modified since last run.
 """
 import os, re, json, time, argparse, datetime as dt
 from pathlib import Path
-from dotenv import load_dotenv
 import smartsheet
-load_dotenv()
 
 SDK = smartsheet.Smartsheet(os.getenv("SMARTSHEET_TOKEN"))
 WS_ID = int(os.getenv("WORKSPACE_ID", "0"))

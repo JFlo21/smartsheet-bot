@@ -8,9 +8,7 @@ monitor_and_duplicate.py
 import os, json, asyncio
 from datetime import datetime as dt
 from aiolimiter import AsyncLimiter
-from dotenv import load_dotenv
 import smartsheet
-load_dotenv()
 
 # ---------- CONFIGURABLE THRESHOLDS ----------
 ERR_CELL_LIMIT       = int(os.getenv("ERR_CELL_LIMIT", 1))
@@ -18,7 +16,7 @@ ERR_REF_LIMIT        = int(os.getenv("ERR_REF_LIMIT", 95))
 ERR_CELLCOUNT_LIMIT  = int(os.getenv("ERR_CELLCOUNT_LIMIT", 4_800_000))
 RATE = AsyncLimiter(250, 60)           # stay under 300 req/min
 SDK  = smartsheet.Smartsheet(os.getenv("SMARTSHEET_TOKEN"))
-WS_ID = int(os.getenv("WORKSPACE_ID"))
+WS_ID = int(os.getenv("WORKSPACE_ID", "0"))
 
 # ---------- HELPERS ----------
 async def safe(fn, *a, **kw):

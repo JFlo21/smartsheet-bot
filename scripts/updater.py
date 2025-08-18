@@ -7,9 +7,7 @@ and appends the new token to the formulas that already use the old token.
 import os, re, json, asyncio, argparse
 from itertools import islice
 from aiolimiter import AsyncLimiter
-from dotenv import load_dotenv
 import smartsheet
-load_dotenv()
 
 SDK = smartsheet.Smartsheet(os.getenv("SMARTSHEET_TOKEN"))
 RATE = AsyncLimiter(300, 60)          # 300 calls / min  :contentReference[oaicite:1]{index=1}
