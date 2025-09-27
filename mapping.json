@@ -8,17 +8,11 @@
   "Corpus Christi - Work Schedule Report - Archive": [
     1229669705666436
   ],
-  "Resiliency Promax Database - Archive": [
-    7600854803632004
-  ],
   "Completed Job Packet - General Foreman": [
     6360992163254148
   ],
   "Corpus North & South/RGV - Work Schedule Report": [
     7261271259828100
-  ],
-  "Completed Job Packet - Tracking Sheet": [
-    1656611215986564
   ],
   "Crew Schedule - Dynamic": [
     1793871651491716
@@ -29,8 +23,14 @@
   "UPR Tracking Smartsheet - Resiliency": [
     7514584211476356
   ],
+  "Crew Roster - Resiliency": [
+    7060626703601540
+  ],
   "Storms Calculations Sheet": [
     3258446188072836
+  ],
+  "Total Storms Hours": [
+    5299801240326020
   ],
   "Actual Pricing & Actual Hours": [
     6036488111214468,
@@ -44,9 +44,6 @@
   ],
   "Pre Planned - Pricing Per Project": [
     5723337641643908
-  ],
-  "Resiliency Promax Database": [
-    3239244454645636
   ],
   "Resiliency Promax Database Backup 10": [
     2308525217763204
@@ -117,8 +114,7 @@
   "Tracking Report - Archive": [
     2229063549669252
   ],
-  "Utilization - Data": [
-    2240396030594948,
-    2490876275150724
+  "Gustavo Pompa - Locate Compliance Sheet": [
+    4417312359665540
   ]
 }
