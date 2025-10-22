@@ -2,26 +2,8 @@
   "2025 Tech Serv priority final": [
     8495204601384836
   ],
-  "AEP Payment Tracking Smartsheet 2025 - Resiliency": [
-    8948924778762116
-  ],
   "Crew Schedule - Bret Berry": [
     1062674424090500
-  ],
-  "Resiliency Hitch Schedule Cumulitive Work Days": [
-    4538922504769412
-  ],
-  "Storms Calculations Sheet v2": [
-    7004310169669508
-  ],
-  "Testing RM": [
-    8287109342252932
-  ],
-  "Untitled sheet": [
-    6866217219346308
-  ],
-  "Archive Locate sheet": [
-    3789483368468356
   ],
   "Archive Locate sheet 2": [
     8509517504401284
@@ -29,21 +11,8 @@
   "Corpus Christi - Work Schedule Report - Archive": [
     1229669705666436
   ],
-  "Resource Analyst Bret Berry - Archive": [
-    5025946613534596
-  ],
-  "Pre Planned - Pricing Per Project Archive": [
-    8355387720814468
-  ],
-  "Resiliency Promax Database - Archive": [
-    7600854803632004,
-    3091826337599364
-  ],
   "Completed Job Packet - General Foreman": [
     6360992163254148
-  ],
-  "Maximo Database": [
-    4377299513200516
   ],
   "Corpus North & South/RGV - Work Schedule Report": [
     7261271259828100
@@ -54,59 +23,14 @@
   "Crew Schedule - Dynamic": [
     1793871651491716
   ],
-  "Resiliency - Hitch Schedule": [
-    5880056124493700
-  ],
   "Resource Analyst - Bret Berry": [
     3733355007790980
-  ],
-  "UPR Tracking Smartsheet - Resiliency": [
-    7514584211476356
-  ],
-  "Billing Report Audit Log": [
-    8686340695609220
-  ],
-  "Base Units - Database": [
-    8189041313795972
-  ],
-  "Color Key": [
-    6604747264970628
-  ],
-  "Crew Roster - Resiliency": [
-    7060626703601540
-  ],
-  "CU List - Poles - Database": [
-    4086293131644804
-  ],
-  "Resiliency -Labor Adders Not Used": [
-    4775343324876676
-  ],
-  "Resiliency Labor Adders - Database": [
-    3198143823826820
-  ],
-  "Work Request Storms Database": [
-    1406271338008452
-  ],
-  "Gilbert Sanchez - Projects List": [
-    1429650514333572
-  ],
-  "Jerry Badillo - Projects List": [
-    3662825202339716
-  ],
-  "Joe Hatman - Projects List": [
-    4232387257913220
-  ],
-  "Robert Ramos - Projects List": [
-    2646191410990980
   ],
   "Storms Calculations Sheet": [
     3258446188072836
   ],
   "Total Storms Hours": [
     5299801240326020
-  ],
-  "707s": [
-    4421071471071108
   ],
   "Actual Pricing & Actual Hours": [
     6036488111214468,
@@ -116,50 +40,14 @@
     6423743837458308,
     566738321100676
   ],
-  "CU List - Corpus North & South": [
-    2980955238125444
-  ],
-  "CU List - San Angelo/Abilene": [
-    567081226424196
-  ],
-  "DSR Report - Resiliency": [
-    7044107294691204
-  ],
   "Intake Promax": [
     3756603854507908
-  ],
-  "Percentage Difference Labor Adders": [
-    4248299298049924
   ],
   "Pre Planned - Pricing Per Project": [
     5723337641643908
   ],
-  "5723337641643908": [
-    515250710335364
-  ],
-  "Resiliency Pricing Contract - Corpus/Laredo/Rio": [
-    5999969522634628
-  ],
-  "Resiliency Pricing Contract - San Angelo/Abilene": [
-    2547999617011588
-  ],
   "State Sheet": [
     6534534683119492
-  ],
-  "AEP CU Cheat Sheet - Resiliency": [
-    1271500611997572
-  ],
-  "Resiliency Promax Database": [
-    3239244454645636
-  ],
-  "Resiliency Promax Database Backup 10": [
-    2308525217763204
-  ],
-  "Resiliency Promax Database Backup 11": [
-    5291853336235908
-  ],
-  "Resiliency Promax Database Backup 12": [
-    58939002539908
   ],
   "Resiliency Promax Database Backup 13": [
     5892629871939460
@@ -203,23 +91,14 @@
   "Resiliency Promax Database Backup 25": [
     1705871626162052
   ],
-  "Resiliency Promax Database Backup 3": [
-    1732945426468740
+  "Resiliency Promax Database Backup 26": [
+    5214601672085380
   ],
   "Resiliency Promax Database Backup 4": [
     4126460034895748
   ],
-  "Resiliency Promax Database Backup 5": [
-    5905527830695812
-  ],
-  "Resiliency Promax Database Backup 6": [
-    1964558450118532
-  ],
   "Resiliency Promax Database Backup 7": [
     7899446718189444
-  ],
-  "Resiliency Promax Database Backup 8": [
-    820644963897220
   ],
   "Resiliency Promax Database Backup 9": [
     8002920231423876
@@ -233,83 +112,26 @@
   "Storms Calculations Sheets 16-19": [
     7425713582854020
   ],
-  "Storms Calculations Sheets 5-9": [
-    1869371132563332
-  ],
   "Storms Calculations Sheets 9-11": [
     638603290955652
-  ],
-  "STORMS Database": [
-    7600417664880516
-  ],
-  "STORMS Database 10": [
-    7494788434579332
-  ],
-  "STORMS Database 11": [
-    6550909241741188
-  ],
-  "STORMS Database 12": [
-    8734961482813316
-  ],
-  "STORMS Database 13": [
-    3757934052855684
-  ],
-  "STORMS Database 14": [
-    4584408167174020
-  ],
-  "STORMS Database 15": [
-    474661067378564
   ],
   "STORMS Database 16": [
     1908169618968452
   ],
-  "STORMS Database 17": [
-    3041010192961412
-  ],
-  "STORMS Database 18": [
-    6052136870694788
-  ],
-  "STORMS Database 19": [
-    6373955012087684
-  ],
-  "STORMS Database 2": [
-    291094504886148
-  ],
   "STORMS Database 20": [
     4354839346630532
   ],
-  "STORMS Database 3": [
-    8120091334889348
-  ],
-  "STORMS Database 4": [
-    7706649797021572
+  "STORMS Database 21": [
+    2698130404364164
   ],
   "STORMS Database 5": [
     481490367369092
-  ],
-  "STORMS Database 6": [
-    3300550067048324
-  ],
-  "STORMS Database 7": [
-    7440066122043268
-  ],
-  "STORMS Database 8": [
-    5950789970251652
-  ],
-  "STORMS Database 9": [
-    6453396304252804
-  ],
-  "STORMS Database v2": [
-    6529412238364548
   ],
   "Design Score Card Weekly": [
     485894524981124
   ],
   "Tracking Metrics ScoreCard": [
     2198406433820548
-  ],
-  "Tracking Metrics Scorecard - Archive": [
-    2770681247780740
   ],
   "Tracking Metrics ScoreCard v2": [
     2894503242321796
@@ -333,34 +155,10 @@
     2240396030594948,
     2490876275150724
   ],
-  "Alfredo Lopez - Locate Compliance Sheet": [
-    7377118506733444
-  ],
-  "Frank Rios - Locate Compliance Sheet": [
-    1105533072265092
-  ],
   "Gustavo Pompa - Locate Compliance Sheet": [
     4417312359665540
   ],
-  "Jorge Rosiles - Locator Compliance Sheet": [
-    5298875653902212
-  ],
-  "Malecio Ramirez - Locator Compliance Sheet": [
-    3345833765326724
-  ],
   "Martin Sasko - Locate Compliance Sheet": [
     6341072436285316
-  ],
-  "Ryan Garza - Locator Compliance Sheet": [
-    6511070043656068
-  ],
-  "Sheet - Maintenance Metrics": [
-    2940640150114180
-  ],
-  "Sheet - Ongoing Preventative Maintenance": [
-    6156340951994244
-  ],
-  "UPR Tracking Smartsheet - Helper Automation": [
-    2383431225790340
   ]
 }
