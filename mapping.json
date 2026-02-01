@@ -1,21 +1,9 @@
 {
-  "Change Log": [
-    2828200578076548
-  ],
   "Crew Schedule - Bret Berry": [
     1062674424090500
   ],
   "Master Schedule": [
     4850043816202116
-  ],
-  "Archive Locate sheet 2": [
-    8509517504401284
-  ],
-  "Corpus North & South/RGV - Work Schedule Report": [
-    7261271259828100
-  ],
-  "Completed Job Packet - Tracking Sheet": [
-    1656611215986564
   ],
   "Crew Schedule - Dynamic": [
     1793871651491716
@@ -26,22 +14,11 @@
   "P&L Summaries for Work Request": [
     6273361626746756
   ],
-  "Crew Roster - Resiliency": [
-    7060626703601540
-  ],
   "Actual Pricing & Actual Hours": [
-    6060613810737028,
-    6036488111214468,
-    1079284102811524
+    6060613810737028
   ],
   "Poles Installed Aggregation Index": [
     2675008397594500
-  ],
-  "Storms Calculations Sheet": [
-    3258446188072836
-  ],
-  "Total Storms Hours": [
-    5299801240326020
   ],
   "Actual Pricing & Actual Hours 2": [
     2590421348732804
@@ -49,23 +26,14 @@
   "Pre Planned - Pricing Per Project": [
     5723337641643908
   ],
-  "COGNOS Sheet 1": [
-    2648624480604036
+  "Intake Promax 2": [
+    249276132183940
   ],
   "Intake Promax 3": [
     2920263713771396
   ],
-  "Resiliency Promax Database (NEW)": [
-    277473162907524
-  ],
-  "Resiliency Promax Database Backup 13": [
-    5892629871939460
-  ],
-  "Resiliency Promax Database Backup 17": [
-    589443900592004
-  ],
-  "Resiliency Promax Database Backup 20": [
-    2329343909908356
+  "Work Request Start Date Index": [
+    3451567475740548
   ],
   "Resiliency Promax Database Backup 24": [
     4973034927509380
@@ -76,23 +44,11 @@
   "Resiliency Promax Database Backup 26": [
     5214601672085380
   ],
-  "Resiliency Promax Database Backup 27": [
-    8551186744430468
-  ],
-  "Resiliency Promax Database Backup 28": [
-    7820299006332804
-  ],
-  "Resiliency Promax Database Backup 29": [
-    1153867531112324
-  ],
   "Resiliency Promax Database Backup 32": [
     366100316376964
   ],
   "Resiliency Promax Database Backup 34": [
     342733613911940
-  ],
-  "Resiliency Promax Database Backup 35": [
-    6658677403504516
   ],
   "Resiliency Promax Database Backup 36": [
     7043847386255236
@@ -100,41 +56,17 @@
   "Resiliency Promax Database Backup 37": [
     4317397608517508
   ],
+  "Resiliency Promax Database Backup 38": [
+    1697214691757956
+  ],
   "Resiliency Promax Database Backup 39": [
     8823469929090948
   ],
   "Resiliency Promax Database Backup 40": [
     692599695298436
   ],
-  "Resiliency Promax Database Backup 7": [
-    7899446718189444
-  ],
-  "Storms Calculations Sheets 20-36": [
-    2840480384503684
-  ],
-  "STORMS Database 20": [
-    4354839346630532
-  ],
-  "STORMS Database 27": [
-    2815842153615236
-  ],
-  "STORMS Database 37": [
-    102702043320196
-  ],
-  "STORMS Database 38": [
-    1944925185724292
-  ],
-  "STORMS Database 42": [
-    5939041095602052
-  ],
-  "Design Score Card Weekly": [
-    485894524981124
-  ],
-  "Tracking Metrics ScoreCard": [
-    2198406433820548
-  ],
-  "Tracking Metrics ScoreCard v2": [
-    2894503242321796
+  "STORMS Database 39": [
+    3952415247126404
   ],
   "Tracking Metrics ScoreCard v3": [
     6620020097372036
@@ -148,28 +80,7 @@
   "Tracking Metrics ScoreCard v6": [
     5621034108538756
   ],
-  "To-do List - Parsed Jobs": [
-    4146364016447364
-  ],
   "Tracking Per Project": [
     6315205374988164
-  ],
-  "Frank Rios - Locate Compliance Sheet": [
-    1105533072265092
-  ],
-  "Gustavo Pompa - Locate Compliance Sheet": [
-    4417312359665540
-  ],
-  "Jorge Rosiles - Locator Compliance Sheet": [
-    5298875653902212
-  ],
-  "Malecio Ramirez - Locator Compliance Sheet": [
-    3345833765326724
-  ],
-  "Martin Sasko - Locate Compliance Sheet": [
-    6341072436285316
-  ],
-  "Ryan Garza - Locator Compliance Sheet": [
-    6511070043656068
   ]
 }
