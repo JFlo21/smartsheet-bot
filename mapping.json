@@ -5,9 +5,6 @@
   "Resiliency Bug Tracker": [
     7521505672908676
   ],
-  "Storms Calculations Sheet v2": [
-    7004310169669508
-  ],
   "Corpus Christi - Work Schedule Report - Archive": [
     1229669705666436
   ],
@@ -26,9 +23,6 @@
   "Resource Analyst - Bret Berry": [
     3733355007790980
   ],
-  "CU List Contract - Arrowhead Contract": [
-    3903607322660740
-  ],
   "Intake Promax": [
     3386072353427332,
     3756603854507908
@@ -36,31 +30,51 @@
   "Arrowhead Resiliency Promax Database 2": [
     8099347251023748
   ],
-  "Arrowhead Resiliency Promax Database Backup 1": [
-    6894278950211460
-  ],
   "P&L Summaries for Work Request": [
     6273361626746756
   ],
-  "Promax Audit Sheet": [
-    1832079508590468
+  "Promax Audit Sheet 10": [
+    5272627225513860
   ],
-  "Promax Audit Sheet 2": [
-    8258414300843908
+  "Promax Audit Sheet 3": [
+    1803099929792388
   ],
-  "Actual Pricing & Actual Hours": [
-    6060613810737028,
-    6036488111214468,
-    1079284102811524
+  "Promax Audit Sheet 4": [
+    3769816994238340
+  ],
+  "Promax Audit Sheet 5": [
+    1038952233389956
+  ],
+  "Promax Audit Sheet 6": [
+    4345484345823108
+  ],
+  "Promax Audit Sheet 7": [
+    4569457763504004
+  ],
+  "Promax Audit Sheet 8": [
+    169336783196036
+  ],
+  "Promax Audit Sheet 9": [
+    2823433298595716
+  ],
+  "Crew Roster - Resiliency": [
+    7060626703601540
   ],
   "Poles Installed Aggregation Index": [
     2675008397594500
   ],
+  "Storms Calculations Sheet": [
+    3258446188072836
+  ],
+  "Total Storms Hours": [
+    5299801240326020
+  ],
+  "Actual Pricing & Actual Hours": [
+    6036488111214468,
+    1079284102811524
+  ],
   "Actual Pricing & Actual Hours 2": [
     2590421348732804
-  ],
-  "CU List - Corpus North & South": [
-    2980955238125444
   ],
   "Pre Planned - Pricing Per Project": [
     5723337641643908
@@ -293,23 +307,20 @@
   "Storms Calculations Sheet 1-4": [
     5425260456267652
   ],
+  "Storms Calculations Sheets 12-15": [
+    8982819750498180
+  ],
+  "Storms Calculations Sheets 16-19": [
+    7425713582854020
+  ],
+  "Storms Calculations Sheets 20-64": [
+    2840480384503684
+  ],
   "Storms Calculations Sheets 5-9": [
     1869371132563332
   ],
-  "STORMS Database": [
-    7600417664880516
-  ],
-  "STORMS Database 10": [
-    7494788434579332
-  ],
-  "STORMS Database 11": [
-    6550909241741188
-  ],
-  "STORMS Database 12": [
-    8734961482813316
-  ],
-  "STORMS Database 13": [
-    3757934052855684
+  "Storms Calculations Sheets 9-11": [
+    638603290955652
   ],
   "STORMS Database 14": [
     4584408167174020
@@ -317,59 +328,20 @@
   "STORMS Database 15": [
     474661067378564
   ],
-  "STORMS Database 16": [
-    1908169618968452
-  ],
-  "STORMS Database 17": [
-    3041010192961412
-  ],
   "STORMS Database 18": [
     6052136870694788
   ],
   "STORMS Database 19": [
     6373955012087684
   ],
-  "STORMS Database 2": [
-    291094504886148
-  ],
-  "STORMS Database 20": [
-    4354839346630532
-  ],
-  "STORMS Database 21": [
-    2698130404364164
-  ],
-  "STORMS Database 22": [
-    4217422203539332
-  ],
-  "STORMS Database 23": [
-    6261964075388804
-  ],
-  "STORMS Database 24": [
-    7509503361634180
-  ],
-  "STORMS Database 25": [
-    42922700394372
-  ],
   "STORMS Database 26": [
     3337761747586948
-  ],
-  "STORMS Database 27": [
-    2815842153615236
   ],
   "STORMS Database 28": [
     6031010379550596
   ],
-  "STORMS Database 29": [
-    5562946991116164
-  ],
-  "STORMS Database 3": [
-    8120091334889348
-  ],
   "STORMS Database 30": [
     4448312112402308
-  ],
-  "STORMS Database 31": [
-    4659522766327684
   ],
   "STORMS Database 32": [
     5202048875188100
@@ -380,26 +352,14 @@
   "STORMS Database 34": [
     8744972799922052
   ],
-  "STORMS Database 35": [
-    2840732797718404
-  ],
   "STORMS Database 36": [
     3839249100001156
   ],
-  "STORMS Database 37": [
-    102702043320196
+  "STORMS Database 38": [
+    1944925185724292
   ],
   "STORMS Database 39": [
     3952415247126404
-  ],
-  "STORMS Database 4": [
-    7706649797021572
-  ],
-  "STORMS Database 40": [
-    582786307018628
-  ],
-  "STORMS Database 41": [
-    338912695242628
   ],
   "STORMS Database 42": [
     5939041095602052
@@ -407,23 +367,8 @@
   "STORMS Database 43": [
     1796204896669572
   ],
-  "STORMS Database 45": [
-    8430239198695300
-  ],
-  "STORMS Database 46": [
-    7268441955192708
-  ],
-  "STORMS Database 47": [
-    1752773549838212
-  ],
   "STORMS Database 48": [
     3032043920248708
-  ],
-  "STORMS Database 49": [
-    4612630539882372
-  ],
-  "STORMS Database 5": [
-    481490367369092
   ],
   "STORMS Database 50": [
     8792949321060228
@@ -437,62 +382,14 @@
   "STORMS Database 53": [
     8369985840697220
   ],
-  "STORMS Database 54": [
-    139902936108932
-  ],
-  "STORMS Database 55": [
-    4599883815145348
-  ],
-  "STORMS Database 56": [
-    6648467251220356
-  ],
-  "STORMS Database 57": [
-    4972201645133700
-  ],
-  "STORMS Database 58": [
-    5099873842974596
-  ],
   "STORMS Database 59": [
     8609104101592964
-  ],
-  "STORMS Database 6": [
-    3300550067048324
   ],
   "STORMS Database 60": [
     6174960176287620
   ],
-  "STORMS Database 61": [
-    7367895932686212
-  ],
   "STORMS Database 62": [
     3186877340274564
-  ],
-  "STORMS Database 63": [
-    7208950601568132
-  ],
-  "STORMS Database 64": [
-    5042663586746244
-  ],
-  "STORMS Database 65": [
-    7184985791352708
-  ],
-  "STORMS Database 66": [
-    1327792860909444
-  ],
-  "STORMS Database 67": [
-    4680110666895236
-  ],
-  "STORMS Database 68": [
-    3272186027528068
-  ],
-  "STORMS Database 7": [
-    7440066122043268
-  ],
-  "STORMS Database 8": [
-    5950789970251652
-  ],
-  "STORMS Database 9": [
-    6453396304252804
   ],
   "Design Score Card Weekly": [
     485894524981124
@@ -523,5 +420,8 @@
   ],
   "Completed Job Packet - Tracking Sheet": [
     1656611215986564
+  ],
+  "Gustavo Pompa - Locate Compliance Sheet": [
+    4417312359665540
   ]
 }
