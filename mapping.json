@@ -2,15 +2,6 @@
   "Crew Schedule - Bret Berry": [
     1062674424090500
   ],
-  "Corpus Christi - Work Schedule Report - Archive": [
-    1229669705666436
-  ],
-  "Resource Analyst - Bret Berry - 2025 Archive": [
-    6329947502104452
-  ],
-  "Completed Job Packet - General Foreman": [
-    6360992163254148
-  ],
   "Corpus North & South/RGV - Work Schedule Report": [
     7261271259828100
   ],
@@ -24,30 +15,15 @@
     3386072353427332,
     3756603854507908
   ],
-  "Arrowhead Resiliency Promax Database 2": [
-    8099347251023748
-  ],
   "P&L Summaries for Work Request": [
     6273361626746756
   ],
-  "Promax Audit Sheet": [
-    1832079508590468
-  ],
-  "Crew Roster - Resiliency": [
-    7060626703601540
+  "Actual Pricing & Actual Hours": [
+    6060613810737028,
+    1079284102811524
   ],
   "Poles Installed Aggregation Index": [
     2675008397594500
-  ],
-  "Storms Calculations Sheet": [
-    3258446188072836
-  ],
-  "Total Storms Hours": [
-    5299801240326020
-  ],
-  "Actual Pricing & Actual Hours": [
-    6036488111214468,
-    1079284102811524
   ],
   "Actual Pricing & Actual Hours 2": [
     2590421348732804
@@ -202,14 +178,8 @@
   "Resiliency Promax Database Backup 46": [
     1804369797271428
   ],
-  "Resiliency Promax Database Backup 47": [
-    2873734244290436
-  ],
   "Resiliency Promax Database Backup 48": [
     8153606260739972
-  ],
-  "Resiliency Promax Database Backup 49": [
-    7630927397080964
   ],
   "Resiliency Promax Database Backup 5": [
     5905527830695812
@@ -219,9 +189,6 @@
   ],
   "Resiliency Promax Database Backup 51": [
     1326553209196420
-  ],
-  "Resiliency Promax Database Backup 52": [
-    6479287751233412
   ],
   "Resiliency Promax Database Backup 53": [
     2672627970690948
@@ -280,59 +247,14 @@
   "Resiliency Promax Database Backup 9": [
     8002920231423876
   ],
-  "Storms Calculations Sheet 1-4": [
-    5425260456267652
-  ],
-  "Storms Calculations Sheets 12-15": [
-    8982819750498180
-  ],
-  "Storms Calculations Sheets 16-19": [
-    7425713582854020
-  ],
-  "Storms Calculations Sheets 20-64": [
-    2840480384503684
-  ],
-  "Storms Calculations Sheets 5-9": [
-    1869371132563332
-  ],
-  "Storms Calculations Sheets 9-11": [
-    638603290955652
-  ],
-  "STORMS Database 21": [
-    2698130404364164
-  ],
-  "STORMS Database 41": [
-    338912695242628
-  ],
-  "STORMS Database 60": [
-    6174960176287620
+  "STORMS Database 42": [
+    5939041095602052
   ],
   "STORMS Database 61": [
     7367895932686212
   ],
-  "STORMS Database 64": [
-    5042663586746244
-  ],
-  "STORMS Database 68": [
-    3272186027528068
-  ],
   "Design Score Card Weekly": [
     485894524981124
-  ],
-  "Tracking Metrics ScoreCard": [
-    2198406433820548
-  ],
-  "Tracking Metrics ScoreCard v2": [
-    2894503242321796
-  ],
-  "Tracking Metrics ScoreCard v3": [
-    6620020097372036
-  ],
-  "Tracking Metrics ScoreCard v4": [
-    5477191610486660
-  ],
-  "Tracking Metrics ScoreCard v5": [
-    8891640346267524
   ],
   "Tracking Metrics ScoreCard v6": [
     5621034108538756
@@ -343,10 +265,7 @@
   "Tracking Per Project": [
     6315205374988164
   ],
-  "Archived Work Requests": [
-    3112581905469316
-  ],
-  "Completed Job Packet - Tracking Sheet": [
-    1656611215986564
+  "Gustavo Pompa - Locate Compliance Sheet": [
+    4417312359665540
   ]
 }
