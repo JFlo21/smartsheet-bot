@@ -1,12 +1,12 @@
 {
-  "Chat Context Log": [
-    868344327524228
-  ],
   "Crew Schedule - Bret Berry": [
     1062674424090500
   ],
   "Master storms data (Pre-Planned Pricing)": [
     1444139672489860
+  ],
+  "Archive Locate sheet 2": [
+    8509517504401284
   ],
   "Corpus Christi - Work Schedule Report - Archive": [
     1229669705666436
@@ -29,6 +29,9 @@
   "Resource Analyst - Bret Berry": [
     3733355007790980
   ],
+  "UPR Tracking Smartsheet - Resiliency": [
+    7514584211476356
+  ],
   "Pre Planned - Pricing Per Project - Subcontractor": [
     8162920222379908
   ],
@@ -36,20 +39,11 @@
     3386072353427332,
     3756603854507908
   ],
-  "Arrowhead Resiliency Promax Database 2": [
-    8099347251023748
-  ],
-  "Arrowhead Resiliency Promax Database 3": [
-    8766162968989572
-  ],
   "Arrowhead Resiliency Promax Database 4": [
     6733767264653188
   ],
   "P&L Summaries for Work Request": [
     6273361626746756
-  ],
-  "Promax Audit Sheet 8": [
-    169336783196036
   ],
   "Crew Roster - Resiliency": [
     7060626703601540
@@ -65,23 +59,14 @@
   "Poles Installed Aggregation Index": [
     2675008397594500
   ],
-  "Storms Calculations Sheet": [
-    3258446188072836
-  ],
   "Total Storms Hours": [
     5299801240326020
   ],
   "Actual Pricing & Actual Hours 2": [
     2590421348732804
   ],
-  "CU List - Corpus North & South": [
-    2980955238125444
-  ],
   "Pre Planned - Pricing Per Project": [
     5723337641643908
-  ],
-  "COGNOS Sheet 1": [
-    2648624480604036
   ],
   "Intake Promax 2": [
     249276132183940
@@ -98,20 +83,8 @@
   "Intake Promax 6": [
     4085014678425476
   ],
-  "Intake Promax 7": [
-    1413438401105796
-  ],
   "Intake Promax 8": [
     2244739192541060
-  ],
-  "Intake Promax 9": [
-    5794188464443268
-  ],
-  "Work Request Start Date Index": [
-    3451567475740548
-  ],
-  "Resiliency Promax Database": [
-    3239244454645636
   ],
   "Resiliency Promax Database (NEW)": [
     277473162907524
@@ -338,6 +311,9 @@
   "Resiliency Promax Database Backup 77": [
     964962938736516
   ],
+  "Resiliency Promax Database Backup 78": [
+    4424991905894276
+  ],
   "Resiliency Promax Database Backup 8": [
     820644963897220
   ],
@@ -362,74 +338,20 @@
   "Storms Calculations Sheets 9-11": [
     638603290955652
   ],
-  "STORMS Database 20": [
-    4354839346630532
-  ],
-  "STORMS Database 41": [
-    338912695242628
-  ],
-  "STORMS Database 42": [
-    5939041095602052
-  ],
-  "STORMS Database 43": [
-    1796204896669572
-  ],
-  "STORMS Database 44": [
-    5947292835073924
-  ],
   "STORMS Database 45": [
     8430239198695300
   ],
   "STORMS Database 46": [
     7268441955192708
   ],
-  "STORMS Database 59": [
-    8609104101592964
-  ],
-  "STORMS Database 60": [
-    6174960176287620
-  ],
-  "STORMS Database 62": [
-    3186877340274564
-  ],
-  "STORMS Database 63": [
-    7208950601568132
-  ],
-  "STORMS Database 64": [
-    5042663586746244
-  ],
-  "STORMS Database 65": [
-    7184985791352708
-  ],
-  "STORMS Database 66": [
-    1327792860909444
-  ],
-  "STORMS Database 67": [
-    4680110666895236
-  ],
-  "STORMS Database 68": [
-    3272186027528068
-  ],
-  "STORMS Database 69": [
-    2133218152107908
-  ],
   "STORMS Database 70": [
     8696323317387140
-  ],
-  "STORMS Database 71": [
-    4283394509721476
   ],
   "STORMS Database 72": [
     2052657215655812
   ],
   "STORMS Database 73": [
     6733434981404548
-  ],
-  "STORMS Database 8": [
-    5950789970251652
-  ],
-  "STORMS Database 9": [
-    6453396304252804
   ],
   "Design Score Card Weekly": [
     485894524981124
@@ -463,5 +385,26 @@
   ],
   "Completed Job Packet - Tracking Sheet": [
     1656611215986564
+  ],
+  "Alfredo Lopez - Locate Compliance Sheet": [
+    7377118506733444
+  ],
+  "Frank Rios - Locate Compliance Sheet": [
+    1105533072265092
+  ],
+  "Gustavo Pompa - Locate Compliance Sheet": [
+    4417312359665540
+  ],
+  "Jorge Rosiles - Locator Compliance Sheet": [
+    5298875653902212
+  ],
+  "Malecio Ramirez - Locator Compliance Sheet": [
+    3345833765326724
+  ],
+  "Martin Sasko - Locate Compliance Sheet": [
+    6341072436285316
+  ],
+  "Ryan Garza - Locator Compliance Sheet": [
+    6511070043656068
   ]
 }
