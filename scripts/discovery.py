@@ -8,6 +8,49 @@ Optimised: only hits the API for sheets modified since last run.
 import os, re, json, time, argparse, datetime as dt
 from pathlib import Path
 import smartsheet
+import requests as _requests
+
+
+class _DictObj:
+    """Wrap a raw API dict so callers can use attribute access (obj.id, obj.name).
+    Also exposes snake_case aliases for camelCase keys (e.g. modified_at for modifiedAt)
+    so that existing downstream code requires no changes.  Keys ending in 'At' are
+    converted to datetime objects so that .isoformat() calls still work.
+    """
+    def __init__(self, d):
+        self.__dict__.update(d)
+        # Add snake_case aliases for camelCase keys
+        for k, v in list(d.items()):
+            snake = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', k)
+            snake = re.sub('([a-z0-9])([A-Z])', r'\1_\2', snake).lower()
+            if snake != k:
+                # Convert ISO datetime strings (e.g. modifiedAt) to datetime objects
+                # so callers can still do .isoformat() without changes.
+                if isinstance(v, str) and snake.endswith('_at'):
+                    try:
+                        v = dt.datetime.fromisoformat(v.replace('Z', '+00:00'))
+                    except (ValueError, AttributeError):
+                        pass
+                self.__dict__[snake] = v
+
+
+def _ss_api_get(endpoint, params=None, max_retries=3):
+    """Direct Smartsheet API call for new endpoints not yet in SDK.
+    Migrated: Replaces deprecated GET /workspaces/{id} and GET /folders/{id}
+    sunset June 3, 2026.
+    """
+    token = os.getenv("SMARTSHEET_TOKEN")
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+    url = f"https://api.smartsheet.com/2.0/{endpoint}"
+
+    for attempt in range(max_retries):
+        resp = _requests.get(url, headers=headers, params=params, timeout=30)
+        if resp.status_code == 429:
+            time.sleep(2 ** attempt * 5)
+            continue
+        resp.raise_for_status()
+        return resp.json()
+    raise Exception(f"Smartsheet API request failed after {max_retries} retries: {endpoint}")
 
 SDK = smartsheet.Smartsheet(os.getenv("SMARTSHEET_TOKEN"))
 WS_ID = int(os.getenv("WORKSPACE_ID", "0"))
@@ -30,42 +73,45 @@ def save_json(path: Path, obj):
     tmp.replace(path)
 
 def get_all_sheets_recursive(workspace_id: int) -> list:
-    """Recursively get all sheets from workspace and all nested folders"""
+    """Recursively get all sheets from workspace and all nested folders.
+    Migrated: Uses /children endpoint instead of deprecated GET /workspaces/{id}
+    — sunset June 3, 2026.
+    """
     all_sheets = []
-    
-    # Get workspace with sheets and folders
-    ws = SDK.Workspaces.get_workspace(workspace_id, include="sheets,folders")
-    
-    # Add direct sheets in workspace
-    if hasattr(ws, 'sheets') and ws.sheets:
-        all_sheets.extend(ws.sheets)
-    
-    # Recursively process folders
-    if hasattr(ws, 'folders') and ws.folders:
-        for folder in ws.folders:
-            all_sheets.extend(get_folder_sheets_recursive(folder.id))
-    
+
+    children = _ss_api_get(
+        f"workspaces/{workspace_id}/children",
+        params={"childrenResourceTypes": "sheets,folders"}
+    )
+
+    all_sheets.extend(_DictObj(s) for s in children.get("sheets", []))
+
+    for folder in children.get("folders", []):
+        all_sheets.extend(get_folder_sheets_recursive(folder["id"]))
+
     return all_sheets
 
 def get_folder_sheets_recursive(folder_id: int) -> list:
-    """Recursively get all sheets from a folder and its subfolders"""
+    """Recursively get all sheets from a folder and its subfolders.
+    Migrated: Uses /children endpoint instead of deprecated GET /folders/{id}
+    — sunset June 3, 2026.
+    """
     sheets = []
-    
+
     try:
-        folder_contents = SDK.Folders.get_folder(folder_id, include="sheets,folders")
-        
-        # Add sheets in this folder
-        if hasattr(folder_contents, 'sheets') and folder_contents.sheets:
-            sheets.extend(folder_contents.sheets)
-        
-        # Recursively process subfolders
-        if hasattr(folder_contents, 'folders') and folder_contents.folders:
-            for subfolder in folder_contents.folders:
-                sheets.extend(get_folder_sheets_recursive(subfolder.id))
-                
+        children = _ss_api_get(
+            f"folders/{folder_id}/children",
+            params={"childrenResourceTypes": "sheets,folders"}
+        )
+
+        sheets.extend(_DictObj(s) for s in children.get("sheets", []))
+
+        for subfolder in children.get("folders", []):
+            sheets.extend(get_folder_sheets_recursive(subfolder["id"]))
+
     except Exception as e:
         print(f"Warning: Could not access folder {folder_id}: {e}")
-    
+
     return sheets
 
 def detect_rollup_sheets(all_sheets: list) -> list:
