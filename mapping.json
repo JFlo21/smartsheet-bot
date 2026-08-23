@@ -1,7 +1,4 @@
 {
-  "2025 Tech Serv priority final": [
-    8495204601384836
-  ],
   "Crew Schedule - Bret Berry": [
     1062674424090500
   ],
@@ -19,6 +16,9 @@
   ],
   "Corpus North & South/RGV - Work Schedule Report": [
     7261271259828100
+  ],
+  "AEP Texas Resiliency Construction Scorecard": [
+    2098806811217796
   ],
   "EVM - Summary Metrics & Roll-Up": [
     4470481332686724
@@ -54,22 +54,11 @@
   "P&L Summaries for Work Request": [
     6273361626746756
   ],
-  "Promax Audit Sheet 6": [
-    4345484345823108
-  ],
-  "Promax Audit Sheet 7": [
-    4569457763504004
-  ],
   "Crew Roster - Resiliency": [
     7060626703601540
   ],
   "GF Roster - Resiliency": [
     6161383522520964
-  ],
-  "Actual Pricing & Actual Hours": [
-    6060613810737028,
-    6036488111214468,
-    1079284102811524
   ],
   "Storms Calculations Sheet": [
     3258446188072836
@@ -77,17 +66,15 @@
   "Total Storms Hours": [
     5299801240326020
   ],
+  "Actual Pricing & Actual Hours": [
+    6036488111214468,
+    1079284102811524
+  ],
   "Actual Pricing & Actual Hours 2": [
     2590421348732804
   ],
-  "CU List - Corpus North & South": [
-    2980955238125444
-  ],
   "Pre Planned - Pricing Per Project": [
     5723337641643908
-  ],
-  "COGNOS Sheet 1": [
-    2648624480604036
   ],
   "Intake Promax 10": [
     8579610659737476
@@ -130,6 +117,9 @@
   ],
   "Resiliency Promax Database Backup 10": [
     2308525217763204
+  ],
+  "Resiliency Promax Database Backup 100": [
+    4789804838375300
   ],
   "Resiliency Promax Database Backup 11": [
     5291853336235908
@@ -335,9 +325,6 @@
   "Resiliency Promax Database Backup 72": [
     3163431321423748
   ],
-  "Resiliency Promax Database Backup 73": [
-    5545068919213956
-  ],
   "Resiliency Promax Database Backup 74": [
     2170869462814596
   ],
@@ -395,9 +382,6 @@
   "Resiliency Promax Database Backup 90": [
     7370066197696388
   ],
-  "Resiliency Promax Database Backup 91": [
-    868801930284932
-  ],
   "Resiliency Promax Database Backup 92": [
     5218352321482628
   ],
@@ -440,47 +424,23 @@
   "Storms Calculations Sheets 9-11": [
     638603290955652
   ],
-  "STORMS Database 13": [
-    3757934052855684
+  "STORMS Database 14": [
+    4584408167174020
   ],
-  "STORMS Database 16": [
-    1908169618968452
-  ],
-  "STORMS Database 20": [
-    4354839346630532
-  ],
-  "STORMS Database 21": [
-    2698130404364164
+  "STORMS Database 17": [
+    3041010192961412
   ],
   "STORMS Database 26": [
     3337761747586948
   ],
+  "STORMS Database 27": [
+    2815842153615236
+  ],
   "STORMS Database 29": [
     5562946991116164
   ],
-  "STORMS Database 31": [
-    4659522766327684
-  ],
-  "STORMS Database 32": [
-    5202048875188100
-  ],
   "STORMS Database 34": [
     8744972799922052
-  ],
-  "STORMS Database 35": [
-    2840732797718404
-  ],
-  "STORMS Database 36": [
-    3839249100001156
-  ],
-  "STORMS Database 37": [
-    102702043320196
-  ],
-  "STORMS Database 38": [
-    1944925185724292
-  ],
-  "STORMS Database 4": [
-    7706649797021572
   ],
   "STORMS Database 44": [
     5947292835073924
@@ -488,41 +448,23 @@
   "STORMS Database 48": [
     3032043920248708
   ],
-  "STORMS Database 53": [
-    8369985840697220
+  "STORMS Database 54": [
+    139902936108932
   ],
-  "STORMS Database 56": [
-    6648467251220356
-  ],
-  "STORMS Database 57": [
-    4972201645133700
+  "STORMS Database 58": [
+    5099873842974596
   ],
   "STORMS Database 59": [
     8609104101592964
   ],
-  "STORMS Database 60": [
-    6174960176287620
+  "STORMS Database 6": [
+    3300550067048324
   ],
-  "STORMS Database 61": [
-    7367895932686212
+  "STORMS Database 67": [
+    4680110666895236
   ],
-  "STORMS Database 62": [
-    3186877340274564
-  ],
-  "STORMS Database 63": [
-    7208950601568132
-  ],
-  "STORMS Database 64": [
-    5042663586746244
-  ],
-  "STORMS Database 65": [
-    7184985791352708
-  ],
-  "STORMS Database 66": [
-    1327792860909444
-  ],
-  "STORMS Database 69": [
-    2133218152107908
+  "STORMS Database 68": [
+    3272186027528068
   ],
   "STORMS Database 71": [
     4283394509721476
@@ -566,14 +508,8 @@
   "Completed Job Packet - Tracking Sheet": [
     1656611215986564
   ],
-  "Alfredo Lopez - Locate Compliance Sheet": [
-    7377118506733444
-  ],
   "Frank Rios - Locate Compliance Sheet": [
     1105533072265092
-  ],
-  "Gustavo Pompa - Locate Compliance Sheet": [
-    4417312359665540
   ],
   "Ryan Garza - Locator Compliance Sheet": [
     6511070043656068
